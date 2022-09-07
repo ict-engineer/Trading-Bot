@@ -1,0 +1,14 @@
+.previewpanel > .progress{
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    /* background: red; */
+    /* border: solid; */
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    /* top: 135px; */
+}
+.previewpanel{
+    position: relative;
+}

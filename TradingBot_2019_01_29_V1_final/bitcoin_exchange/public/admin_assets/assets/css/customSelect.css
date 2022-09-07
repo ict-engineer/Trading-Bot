@@ -1,0 +1,177 @@
+select.exchangeItems, select.sellType, select.baseCurrency, select.quoteCurrency, select.orderType{
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 0px;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+ }
+
+ table {
+    border-collapse: collapse;
+  }
+
+ table, th, td {
+    border: 1px solid black;
+    text-align:  center;
+  }
+
+
+
+
+.orderbookArea{
+    margin-top: 10%;
+}
+
+.exchangeOrderbook{
+    margin: 2%;
+}
+
+.orderbookTitle{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.orderbookType{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.orderbookList{
+    width: 100%;
+}
+
+.exchangeBtnArea{
+    width: 100px;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 1%;
+    position: absolute;
+    right: 0%;
+}
+
+#exchangeAddBtn, #runAllBtn, #runReal {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 20%;
+}
+
+
+#exchangeAddBtn, #runAllBtn, #runReal:hover {background-color: #3e8e41}
+
+#exchangeAddBtn, #runAllBtn, #runReal:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#runAllBtn, #runReal{
+    width: 100%;
+}
+
+#exchanges{
+    float:left;
+}
+
+.exchangeOrderbook{
+    float: left;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }
+  .btn-circle.btn-lg {
+    width: 30px;
+    height: 30px;
+    padding: 10px 10px;
+    font-size: 10px;
+    line-height: 1.33;
+    border-radius: 20px;
+  }
+  .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+  }
+
+.exchangeRemoveBtn{
+    margin-left: 98%;
+    background-color: #cc5043 !important;
+    border-color: #cc5043 !important;
+}
+
+.profitArea{
+    background-color: #4CAF50;
+    border-radius: 7px !important;
+    font-size: 15px !important;
+}
+
+.runBtn{
+    margin-left: 80%;
+    margin-top: 3%;
+    background-color: #4CAF50;
+    width: 20%;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+}
+
+
+
+
+
+
+tbody {
+    display:block;
+    overflow:auto;
+}
+.orderbookList > thead, .orderbookList >  tbody tr {
+    display:table;
+    width:100%;
+}
+thead {
+    width: calc( 100% - 1em )
+}
+
+
+.select2-selection__rendered{
+    padding-top: 0px !important;
+}

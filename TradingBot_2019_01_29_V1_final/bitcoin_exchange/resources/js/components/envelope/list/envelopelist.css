@@ -1,0 +1,97 @@
+.envelope_list{}
+
+.envelope_category > .category > .category_title{
+
+}
+.envelope_category > .category > .category_enveopes_count{
+
+}
+.col-md-2.envelope_category {
+    min-height: 200px;
+}
+.envelope_category > .category{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.envelope{
+    padding : 30px;
+}
+.envelope > .backdrop{
+
+}
+.envelope > .backdrop > .btn_preview_envelope{
+
+}
+.envelope > .backdrop > .btn_preview_envelope:hover{
+}
+.envelope:hover > .backdrop{
+}
+.envelope > .backdrop > .btn_cart{
+
+}
+.envelope > .backdrop > .btn_cart:hover{
+
+
+}
+.envelope:hover > .btn_cart{
+
+}
+/* .envelope:hover{
+    border : solid 1px black;
+} */
+.envelope_modal{
+
+}
+.envelope_modal.open{
+
+}
+.envelope_modal_backdrop{
+
+}
+.envelope_modal > .header{
+
+}
+.envelope_modal_dialog{
+
+}
+.btn_close_envelope_modal{
+
+}
+.envelope_modal_dialog > .header > .title{
+    position: absolute;
+    text-shadow: white 1px 1px;
+    font-weight: bolder;
+    color: black;
+    font-size: 20pt;
+}
+.envelope_modal_dialog > .body > .price{
+    position: absolute;
+    /* text-shadow: white 1px 1px; */
+    font-weight: bolder;
+    color: black;
+    font-size: 20pt;
+    /* bottom: 0%; */
+    left: 50%;
+    transform: translate(-50%);
+    top: 100%;
+    background: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.envelope_modal_dialog > .body > img{
+   width: 100%;
+}
+
+.envelope_modal_dialog > .footer > .btn_cart{
+    width: 100%;
+    text-align: center;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px
+}

@@ -1,0 +1,13 @@
+.letter_list_container{
+
+}
+.letteritem {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.letter_list_container
+{
+    clear: both;
+}

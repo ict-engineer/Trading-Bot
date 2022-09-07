@@ -1,0 +1,19 @@
+.btn_letter_category {
+    padding: 10px;
+    margin-right: 10px;
+    border-bottom: solid 1px green;
+    cursor: pointer;
+}
+.btn_letter_category.active {
+    padding: 10px;
+    margin-right: 10px;
+    border-bottom: solid 2px #ff0082;
+    cursor: pointer;
+}
+.category_buttons_container{
+
+        background: rebeccapurple;
+        padding: 11px;
+        color: white;
+
+}

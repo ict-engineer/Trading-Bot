@@ -1,0 +1,78 @@
+/* ------------------------------------
+	Media Queries (Desktop First)
+------------------------------------ */
+
+
+@media only screen and ( max-width: 1200px ) {
+
+}
+
+
+@media only screen and ( max-width: 992px ) {
+
+	.menu-trigger { line-height: 35px; font-size: 16px; margin-top: 10px; }
+	.cart-link { text-align: center; padding: 12px 0; line-height: 1; }
+	.cart-link > a { font-size: 0; }
+	.cart-link > a .fa { font-size: 18px; }
+	.cart-box::before { right: 40px; }
+
+	.tag-cloud { text-align: center; font-size: 0; }
+	.tag-cloud li { float: none; display: inline-block; font-size: 15px; }
+
+	.user-links-toggler { display: block; margin-top: -55px; }
+	.user-links { display: none; }
+	.user-links.mobile { border-top: 1px solid #bebebe; text-align: left; }
+	.user-links.mobile .secondary-menu a { display: block; padding: 15px 0px; margin: 0; border-bottom: 1px solid #ececec; }
+	.user-links.mobile .account-links a { display: block; padding: 15px 0; border-bottom: 1px solid #ececec; }
+	.user-links.mobile .social-links { padding: 15px 0; }
+
+}
+
+@media only screen and ( max-width: 767px ) {
+
+	.main-header { padding: 15px 0 0; }
+	.logo { padding: 15px 0;  line-height: 1; border-bottom: 1px solid #efefef; }
+	.menu-trigger span, .menu-trigger .fa-caret-down { display: none; }
+	.user-links { padding: 15px 0; text-align: center; line-height: 1; }
+	.user-links .social-links { margin-bottom: 15px; float: none; }
+	.user-links .social-links a { margin: 0 5px; }
+	.user-links .account-links { float: none; }
+	.user-links .account-links a { margin: 0 10px; }
+
+	.cart-link { text-align: center; }
+	.cart-link > a { white-space: nowrap; }
+	.cart-box::before { right: 10%; }
+
+	/*.menu-wrapper { position: fixed; width: 100%; top: 0; left: 0; height: 100%; overflow: auto; background: rgba(236,236,236,1); }*/
+	.menu-box .linklist { height: auto; }
+	.menu-box .linklist a { padding: 10px 20px; }
+
+	.tag-cloud li { margin: 0 8px 8px 0; }
+	.tag-cloud a { padding: 5px 10px; font-size: 13px; }
+
+	.user-links-toggler { margin-top: -50px; }
+
+}
+
+@media only screen and ( max-width: 640px ) {
+
+	.cart-box::before { right: 6%; }
+
+}
+
+
+@media only screen and ( max-width: 480px ) {
+
+	.logo { text-align: left; }
+	.logo img { max-width: 210px; }
+
+	.searchbar .input { width: 80%; }
+	.searchbar .button { width: 20%; }
+	.cart-box::before { right: 1%; }
+
+
+}
+
+
+@media only screen and ( max-width: 320px ) {
+}

@@ -1,0 +1,20 @@
+.row > .col-md-3.tab_menu {
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: solid 1px green;
+    list-style: none;
+}
+.row > .col-md-3.tab_menu.react-tabs__tab--selected {
+    border-bottom: solid 4px green;
+}
+.row > .tab_menu:hover{
+
+}
+.row > .tab_menu:disabled{
+
+}
+.react-tabs__tab-panel {
+    min-height: calc(100vh - 328px);
+    max-height: calc(100vh - 240px);
+}
